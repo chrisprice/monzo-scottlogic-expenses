@@ -1,0 +1,31 @@
+.table {
+  border-spacing: 0.5rem;
+}
+
+@media print {
+  body {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 16px;
+  }
+  .btn {
+    display: none;
+  }
+  .input, .select {
+    padding: 2px;
+    height: 1.5rem;
+    background: none;
+  }
+  .table {
+    border-spacing: 0;
+  }
+}
+
+.receipt {
+  width: 500px;
+}
+.receipt>img {
+  height: 500px;
+  object-fit: contain;
+}

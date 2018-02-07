@@ -1,0 +1,38 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.team-list, .trip-description {
+  width: 250px;
+}
+:root {
+  counter-reset: ref;
+}
+.ref::after {
+  content: counter(ref);
+  counter-increment: ref;
+}
+.date, .category {
+  width: 80px;
+}
+.name, .notes {
+  width: 200px;
+}
+.client-name, .project-name {
+  width: 100px;
+}
+.account-code, .office-code, .receipt {
+  width: 50px;
+}
+.amount, .vat {
+  width: 50px;
+  text-align: right;
+}
+.receipt-image {
+  width: 500px;
+}
+.receipt-image>img {
+  height: 500px;
+  object-fit: contain;
+} */
