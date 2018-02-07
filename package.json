@@ -19,10 +19,11 @@
     "redux-thunk": "^2.2.0"
   },
   "scripts": {
+    "404": "cp build/index.html build/404.html",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run 404 && gh-pages -d build"
   }
 }
